@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2A2E901E8AD8B000635736 /* ComidasBD.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6E2A2E8F1E8AD8B000635736 /* ComidasBD.sqlite */; };
+		6E2A2E941E8AD8E800635736 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A2E931E8AD8E800635736 /* DataBase.m */; };
+		6E2A2E971E8AD92B00635736 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2A2E961E8AD92B00635736 /* libsqlite3.tbd */; };
 		6E3703B11E898C1E0002DFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703B01E898C1E0002DFC0 /* AppDelegate.swift */; };
 		6E3703B31E898C1E0002DFC0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703B21E898C1E0002DFC0 /* FirstViewController.swift */; };
 		6E3703B51E898C1E0002DFC0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703B41E898C1E0002DFC0 /* SecondViewController.swift */; };
 		6E3703B81E898C1E0002DFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3703B61E898C1E0002DFC0 /* Main.storyboard */; };
 		6E3703BA1E898C1F0002DFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3703B91E898C1F0002DFC0 /* Assets.xcassets */; };
 		6E3703BD1E898C1F0002DFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3703BB1E898C1F0002DFC0 /* LaunchScreen.storyboard */; };
+		6E3703C51E89A6300002DFC0 /* CategoriaCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703C41E89A6300002DFC0 /* CategoriaCellTableViewCell.swift */; };
+		6E3703C71E89AA5C0002DFC0 /* PlatosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703C61E89AA5C0002DFC0 /* PlatosTableViewController.swift */; };
+		6E3703C91E89D6980002DFC0 /* CustomCellPlatosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703C81E89D6980002DFC0 /* CustomCellPlatosTableViewCell.swift */; };
+		6E3703CB1E89E2150002DFC0 /* DetallePlatoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3703CA1E89E2150002DFC0 /* DetallePlatoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E2A2E8F1E8AD8B000635736 /* ComidasBD.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComidasBD.sqlite; sourceTree = "<group>"; };
+		6E2A2E911E8AD8E700635736 /* Proyecto-Restaurante-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Proyecto-Restaurante-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E2A2E921E8AD8E800635736 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		6E2A2E931E8AD8E800635736 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		6E2A2E961E8AD92B00635736 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		6E3703AD1E898C1E0002DFC0 /* Proyecto-Restaurante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto-Restaurante.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3703B01E898C1E0002DFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E3703B21E898C1E0002DFC0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		6E3703B91E898C1F0002DFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3703BC1E898C1F0002DFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3703BE1E898C1F0002DFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3703C41E89A6300002DFC0 /* CategoriaCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriaCellTableViewCell.swift; sourceTree = "<group>"; };
+		6E3703C61E89AA5C0002DFC0 /* PlatosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatosTableViewController.swift; sourceTree = "<group>"; };
+		6E3703C81E89D6980002DFC0 /* CustomCellPlatosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellPlatosTableViewCell.swift; sourceTree = "<group>"; };
+		6E3703CA1E89E2150002DFC0 /* DetallePlatoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallePlatoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2A2E971E8AD92B00635736 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E2A2E951E8AD92B00635736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2A2E961E8AD92B00635736 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E3703A41E898C1E0002DFC0 = {
 			isa = PBXGroup;
 			children = (
 				6E3703AF1E898C1E0002DFC0 /* Proyecto-Restaurante */,
 				6E3703AE1E898C1E0002DFC0 /* Products */,
+				6E2A2E951E8AD92B00635736 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +82,21 @@
 		6E3703AF1E898C1E0002DFC0 /* Proyecto-Restaurante */ = {
 			isa = PBXGroup;
 			children = (
+				6E2A2E921E8AD8E800635736 /* DataBase.h */,
+				6E2A2E931E8AD8E800635736 /* DataBase.m */,
+				6E2A2E8F1E8AD8B000635736 /* ComidasBD.sqlite */,
 				6E3703B01E898C1E0002DFC0 /* AppDelegate.swift */,
 				6E3703B21E898C1E0002DFC0 /* FirstViewController.swift */,
 				6E3703B41E898C1E0002DFC0 /* SecondViewController.swift */,
+				6E3703C61E89AA5C0002DFC0 /* PlatosTableViewController.swift */,
+				6E3703CA1E89E2150002DFC0 /* DetallePlatoTableViewController.swift */,
 				6E3703B61E898C1E0002DFC0 /* Main.storyboard */,
 				6E3703B91E898C1F0002DFC0 /* Assets.xcassets */,
 				6E3703BB1E898C1F0002DFC0 /* LaunchScreen.storyboard */,
 				6E3703BE1E898C1F0002DFC0 /* Info.plist */,
+				6E3703C41E89A6300002DFC0 /* CategoriaCellTableViewCell.swift */,
+				6E3703C81E89D6980002DFC0 /* CustomCellPlatosTableViewCell.swift */,
+				6E2A2E911E8AD8E700635736 /* Proyecto-Restaurante-Bridging-Header.h */,
 			);
 			path = "Proyecto-Restaurante";
 			sourceTree = "<group>";
@@ -100,6 +134,7 @@
 					6E3703AC1E898C1E0002DFC0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XLFAKSDL3P;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,6 +164,7 @@
 			files = (
 				6E3703BD1E898C1F0002DFC0 /* LaunchScreen.storyboard in Resources */,
 				6E3703BA1E898C1F0002DFC0 /* Assets.xcassets in Resources */,
+				6E2A2E901E8AD8B000635736 /* ComidasBD.sqlite in Resources */,
 				6E3703B81E898C1E0002DFC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E3703B51E898C1E0002DFC0 /* SecondViewController.swift in Sources */,
+				6E3703C71E89AA5C0002DFC0 /* PlatosTableViewController.swift in Sources */,
+				6E2A2E941E8AD8E800635736 /* DataBase.m in Sources */,
 				6E3703B11E898C1E0002DFC0 /* AppDelegate.swift in Sources */,
+				6E3703C91E89D6980002DFC0 /* CustomCellPlatosTableViewCell.swift in Sources */,
+				6E3703C51E89A6300002DFC0 /* CategoriaCellTableViewCell.swift in Sources */,
 				6E3703B31E898C1E0002DFC0 /* FirstViewController.swift in Sources */,
+				6E3703CB1E89E2150002DFC0 /* DetallePlatoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +304,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XLFAKSDL3P;
 				INFOPLIST_FILE = "Proyecto-Restaurante/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-GermanAlfredoAlvarenga.Proyecto-Restaurante";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Proyecto-Restaurante/Proyecto-Restaurante-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +320,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = XLFAKSDL3P;
 				INFOPLIST_FILE = "Proyecto-Restaurante/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-GermanAlfredoAlvarenga.Proyecto-Restaurante";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Proyecto-Restaurante/Proyecto-Restaurante-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +350,7 @@
 				6E3703C31E898C1F0002DFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
